@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/editscript",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Edit an existing script-payload mapping"
+            }
+          }
+        ],
+        "send": {
+          "text": "/editscript"
+        }
+      }
+    ]
+  }
+]
