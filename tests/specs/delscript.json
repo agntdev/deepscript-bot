@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/delscript",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Delete an existing script-payload mapping"
+            }
+          }
+        ],
+        "send": {
+          "text": "/delscript"
+        }
+      }
+    ]
+  }
+]
