@@ -1,0 +1,20 @@
+[
+  {
+    "name": "/addscript",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Start the interactive flow to add a new script-payload mapping"
+            }
+          }
+        ],
+        "send": {
+          "text": "/addscript"
+        }
+      }
+    ]
+  }
+]
